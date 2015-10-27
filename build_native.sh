@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROTOBUFDIR=/home/markus/nfs/c-code/chromecast/protobuf_install_mint
+PROTOBUFDIR= Directory where protobuf is installed
 
 set -v
 set -x

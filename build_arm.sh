@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PROTOBUF_DIR=/home/markus/c-code/chromecast/protobuf_install_cross
-OPENSSL_DIR=/home/markus/c-code/chromecast/openssl_install_arm
-ANDROID_NDK_DIR=/home/markus/android/ndk/android-ndk-r8e
+PROTOBUF_DIR= Directory where protobuf is installed
+OPENSSL_DIR= Directory where OpenSSL is installed
+ANDROID_NDK_DIR= Directory where the Android NDK is installed
 
 
 PROTOBUF_INCLUDE=-I$PROTOBUF_DIR/include/
