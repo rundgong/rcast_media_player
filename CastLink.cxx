@@ -87,6 +87,7 @@ ConnectionHandler::onCastMessage( CastLink* castLink, const CastMessage& castMes
 CastLink::CastLink(const std::string& host, uint16_t port)
   : mIsConnected(false)
 {
+    RLOG(rlog::Debug, "CastLink::CastLink " << host << ":" << port )
     mSslWrapper = std::shared_ptr<SslWrapper>(new SslWrapper(host, port));
 
     init();

@@ -98,7 +98,7 @@ int handleArguments(int argc, char* argv[])
 #ifdef RCAST_NATIVE
             sFileLogStream = new std::ofstream("./log.txt");
 #else
-            sFileLogStream = new std::ofstream("/data/rcast/log.txt");
+            sFileLogStream = new std::ofstream("/data/rcast/log.txt", std::ios_base::app);
 #endif
             rlog::logStream = sFileLogStream;
         }
